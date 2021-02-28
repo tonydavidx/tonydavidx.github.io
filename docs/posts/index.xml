@@ -13,7 +13,11 @@
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://tonydavidx.github.io/posts/post_1/</guid>
-      <description>this is my first tutotial</description>
+      <description>this is my first tutotial
+git updates were rejected
+1 2  git push -f origin main   git delete branch
+1 2 3 4 5 6  // delete branch locally git branch -d localBranchName // delete branch remotely git push origin --delete remoteBranchName git push -d origin BranchName   clean Directory and files
+1  git clean -fd   Reset all changes done after a commit</description>
     </item>
     
   </channel>

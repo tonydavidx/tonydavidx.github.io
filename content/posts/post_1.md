@@ -25,3 +25,57 @@ cover:
 ---
 
 this is my first tutotial
+
+git updates were rejected 
+
+```bash
+git push -f origin main
+
+```
+
+git delete branch 
+
+```bash
+// delete branch locally
+git branch -d localBranchName
+
+// delete branch remotely
+git push origin --delete remoteBranchName
+git push -d origin BranchName
+```
+
+clean Directory and files
+
+```bash
+git clean -fd
+```
+
+Reset all changes done after a commit 
+
+```bash
+to discard all changes
+git reset --hard
+// to delte last commit
+git reset --hard HEAD^
+```
+
+Rename a branch 
+
+```bash
+git branch -M main
+```
+
+Push Commands
+
+```bash
+// to push all branches 
+git push --all origin
+```
+
+git commits 
+
+```bash
+// amend without editing last commit message
+git commit --amend --no-edit
+
+```
