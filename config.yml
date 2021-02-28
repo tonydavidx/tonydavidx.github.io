@@ -1,0 +1,69 @@
+baseURL: https://tonydavidx.github.io
+languageCode: en-us
+theme: PaperMod
+publishDir: docs
+
+title: Tony David
+description: Designer, Developer and 3D artiste. right now i am exploring google new sdk FLutter.
+
+enableRobotsTXT: true
+
+params:
+  author: Tony David
+  assets:
+    disableHLJS: true
+  env: production
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  defaultTheme: auto
+  analytics.google.SiteVerificationTag: "dsfsdf"
+  analytics.bing.SiteVerificationTag: DFGDFG
+  enableEmoji: true
+  profileMode:
+    enabled: true
+    title: "Hi👋, I am Antony David" # optional default will be site title
+    subtitle: "I am an avid learner i am a freelance designer and developer. i have experience in Adobe Photoshop, Adobe Illustrator, Wordpress, and Flutter."
+    imageUrl: "https://pbs.twimg.com/profile_images/982212839753449472/RTPMqTS4_400x400.jpg" # optional
+    imageTitle: "<title of image as alt>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+menu:
+  main:
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: archives
+      name: Archieves
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+
+markup:
+  highlight:
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
