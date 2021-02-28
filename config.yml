@@ -1,4 +1,4 @@
-baseURL: https://tonydavidx.github.io
+baseURL: https://tonydavidx.github.io/
 languageCode: en-us
 theme: PaperMod
 publishDir: docs
