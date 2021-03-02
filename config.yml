@@ -8,29 +8,40 @@ description: Designer, Developer and 3D artiste. right now i am exploring google
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
-
+googleAnalytics: UA-123956769-3
 params:
   author: Tony David
-  assets:
-    disableHLJS: true
   env: production
   ShowReadingTime: true
   ShowShareButtons: true
   ShowBreadCrumbs: true
   ShowPostNavLinks: true
   defaultTheme: auto
-  analytics.google.SiteVerificationTag: "dsfsdf"
-  analytics.bing.SiteVerificationTag: DFGDFG
   enableEmoji: true
+  analytics:
+    google:
+      SiteVerificationTag: asdfdfdf
   profileMode:
     enabled: true
     title: "Hi👋, I am Antony David" # optional default will be site title
     subtitle: "I am an avid learner i am a freelance designer and developer. i have experience in Adobe Photoshop, Adobe Illustrator, Wordpress, and Flutter."
     imageUrl: "https://pbs.twimg.com/profile_images/982212839753449472/RTPMqTS4_400x400.jpg" # optional
-    imageTitle: "<title of image as alt>" # optional
+    imageTitle: "antony david" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
-
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+  socialIcons:
+    - name: Twitter
+      url: https://twitter.com/AntonyDavidx
+    - name: GitHub
+      url: https://github.com/tonydavidx
+  cover:
+    linkFullImages: true
+    responsiveImages: true
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -60,11 +71,3 @@ menu:
       name: Search
       url: /search/
       weight: 30
-
-markup:
-  highlight:
-    anchorLineNos: true
-    codeFences: true
-    guessSyntax: true
-    lineNos: true
-    style: monokai

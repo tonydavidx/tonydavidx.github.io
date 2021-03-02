@@ -8,25 +8,12 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://tonydavidx.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About</title>
-      <link>https://tonydavidx.github.io/about/</link>
-      <pubDate>Sun, 28 Feb 2021 15:21:40 +0530</pubDate>
-      
-      <guid>https://tonydavidx.github.io/about/</guid>
-      <description>About Me </description>
-    </item>
-    
-    <item>
-      <title>How to run a flutter app offline</title>
+      <title>How to run background tasks in flutter</title>
       <link>https://tonydavidx.github.io/posts/post_1/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
       <guid>https://tonydavidx.github.io/posts/post_1/</guid>
-      <description>this is my first tutotial
-git updates were rejected
-1 2  git push -f origin main   git delete branch
-1 2 3 4 5 6  // delete branch locally git branch -d localBranchName // delete branch remotely git push origin --delete remoteBranchName git push -d origin BranchName   clean Directory and files
-1  git clean -fd   Reset all changes done after a commit</description>
+      <description></description>
     </item>
     
     <item>
