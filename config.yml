@@ -9,6 +9,8 @@ description: Designer, Developer and 3D artiste. right now i am exploring google
 enableInlineShortcodes: true
 enableRobotsTXT: true
 googleAnalytics: UA-123956769-3
+permalinks:
+  posts: /:slug
 params:
   author: Tony David
   env: production
