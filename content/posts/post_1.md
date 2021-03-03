@@ -1,6 +1,6 @@
 ---
 title: "How to Run Background Tasks in Flutter"
-date: 2020-09-15T11:30:03+00:00
+date: 2021-03-02T11:30:03+00:00
 # weight: 1
 aliases: ["/first"]
 tags: ["flutter"]

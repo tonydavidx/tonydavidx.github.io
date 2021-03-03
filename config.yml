@@ -20,13 +20,13 @@ params:
   ShowPostNavLinks: true
   defaultTheme: auto
   enableEmoji: true
-  analytics:
-    google:
-      SiteVerificationTag: asdfdfdf
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: asdfdfdf
   profileMode:
     enabled: true
-    title: "Hi👋, I am Antony David" # optional default will be site title
-    subtitle: "I am an avid learner i am a freelance designer and developer. i have experience in Adobe Photoshop, Adobe Illustrator, Wordpress, and Flutter."
+    title: "Hi, I am Antony David" # optional default will be site title
+    subtitle: "I am an freelance designer and developer i an avid learner. i have experience in Adobe Photoshop, Adobe Illustrator, Wordpress, and Flutter."
     imageUrl: "https://pbs.twimg.com/profile_images/982212839753449472/RTPMqTS4_400x400.jpg" # optional
     imageTitle: "antony david" # optional
     imageWidth: 120 # custom size
