@@ -1,6 +1,6 @@
 ---
 title: "How to Run Background Tasks in Flutter"
-date: 2020-09-15T11:30:03+00:00
+date: 2021-03-02T11:30:03+00:00
 # weight: 1
 aliases: ["/first"]
 tags: ["flutter"]
@@ -14,7 +14,6 @@ comments: false
 description: "learn how to use android alarm manager package to run your dart code in background"
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
 cover:
     image: "static/alarmmanager.jpg" # image path/url
     alt: "<alt text>" # alt text
